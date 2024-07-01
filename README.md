@@ -1,3 +1,5 @@
+# ***Netplay Virtual SD Card Download:***
+https://drive.google.com/file/d/1b2dG55pnoq6yF65IvL1gI9WhkfM6mpjO/view?usp=drive_link
 
 # ***𝛼 = Based on P+ 2.5.2***
 # ***𝛽 = Based on P+ 3.02***
