@@ -5,7 +5,7 @@ https://drive.google.com/file/d/1b2dG55pnoq6yF65IvL1gI9WhkfM6mpjO/view?usp=drive
 # ***𝛽 = Based on P+ 3.02***
 
 # [Chars with no changes from 3.02]
-Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, R.O.B, Wario, Jigglypuff, Game and watch, ZSS, Ivysaur, Wolf, Ice Climbers, Ganon, Kirby, Ike (for now)
+Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, R.O.B, Wario, Jigglypuff, Game and watch, ZSS, Ivysaur, Wolf, Ice Climbers, Ganon, Kirby,
 
 # [Charizard (𝛽)]
 
