@@ -11,6 +11,7 @@ Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, R.O.B, 
 
 ## ***[Neutral B (Air)]***
 -Negatively disjointed
+
 +Aerial thunder punch can now be edgecanceled
 
 # [Donkey Kong (𝛼)]
@@ -21,42 +22,61 @@ Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, R.O.B, 
 ## ***[Attributes]***
   {Weight}
 -109 > 100
+
   {Size}
 -0.915 > 0.85
+
   {Initial dash}
 -1.8 > 1.6
 
 ## ***[UpB]***
 -Landing lag 15 > 30
+
 -Intangibility 4 > 1 (aerial and grounded)
+
 +Intangibility frame 2 > 1
 
 ## ***[DownB]***
   {Grounded}
 -No longer loopable
+
 -Only one hitbox that covers in front of him
-+f20-21/f31-32 > f12-13/f21-22
+
++Startup decreased f20-21/f31-32 > f12-13/f21-22
+
 -No longer meteors. Angle changed to 100 from 265/270
+
 -Damage reduced 12 > 8
+
 +Endlag reduced 28 > 20
+
 +Hitbox size 9 > 11
 
   {Aerial}
 -Angle adjusted 361 > 50
+
 -Active frames reduced 6 > 4 
 
 ## ***[Punch]***
 -Damage per swing 2% > 1%
+
 +Zero Spin Turnaround
+
 +B Reversible punch charge
+
 +Punchgliding
+
 -Unified knockback/damage between air/grounded (40/90 > 30/80)
+
 -Full charge damage reduced 26 > 20
+
 -Air punch cancel lag 9 > 12
 
 ## ***[Fair]***
 -Late hits base knockback 50 > 40
+
 -Early hits kbg decreased 100 > 90
+
 -Damage 16 > 14
 
 ## ***[Uair]***
@@ -67,7 +87,9 @@ Damage reduced 18/16 > 16/14
 
 ## ***[Down smash]***
 +add funny sheik tipper thing because grealy asked for it and I think it sounds funny
+
 -Early hit damage 17 > 16
+
 -Late hit damage 16 > 15
 
 ## ***[Cargo throw]***
@@ -88,14 +110,20 @@ Damage reduced 18/16 > 16/14
 
 ## ***[Nair]***
 +First active frame 7 > 5
+
 +Animation sped up by 10%
+
 -Active frames reduced 12 > 8
 
 ## ***[Fair]***
 -Animation ported from ultimate (range heavily reduced)
+
 +Startup reduced f17 > f11
+
 +Landing lag reduced 13 > 11
+
 +Active frames increased 4 > 6
+
 
 ## ***[Bair]***
 -Damage decreased by 1 on all non-sourspot hitboxes (15/17 > 14/16)
@@ -229,9 +257,10 @@ A (Waddle bomber): Causes the active waddle to explode after a short delay, deal
 # [Lucario (𝛼)]
 
 ## ***[Attributes]***
--Terminal velocity increased 2 > 2.4
+-Terminal velocity increased 2 > 2.9
 -Weight reduced 94 > 75
 -Starts a match with 0 aura charges instead of 1
++Fastfall maximum velocity 2.4 > 3.0
 
 ## ***[Down B]***
 -iframes reduced 12 > 8
@@ -764,11 +793,11 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 ## ***[Uthrow]***
 New stats:
-+Angle changed 73 > 92
++Angle changed 73 > 95
 +Startup decreased 24 > 17
--Endlag increased 19 > 24
+-Endlag increased 19 > 26
 -Base knockback reduced 95 > 70
--KBG increased 70 > 135
+-KBG increased 70 > 145
 
 # [Squirtle (𝛽)]
 
