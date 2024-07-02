@@ -888,7 +888,7 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 +Second hit:
 
-+sweetspot (f14-15): 12%, 40 bkb, 105 kbg @ 80 degrees
++sweetspot (f14-15): 12%, 40 bkb, 100 kbg @ 80 degrees
 
 -Sourspot (f16-17): 10%, 40 bkb, 80 kbg @ 70 degrees
 
