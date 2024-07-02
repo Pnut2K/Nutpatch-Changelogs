@@ -809,7 +809,7 @@ IASA 51
   +14%, 75/45 @ 73 > 15%, 30/95 @ 80 
 
 ## ***[Forward smash]***
-+Backported 3.01 behavior
++Backported 3.02 behavior
 
 ## ***[Down smash]***
   {Summary}
@@ -882,15 +882,15 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 -First hit (f8-11): 
 
-+Leg hitbox: 4%, 50 WDSK, 120 kbg @ 92 degrees.
++Leg hitbox: 4%, 40 WDSK, 120 kbg @ 92 degrees.
 
-+Foot hitbox: 4%, 25 WDSK, 120 kbg @ 92 degrees.
++Foot hitbox: 4%, 30 WDSK, 120 kbg @ 92 degrees.
 
 +Second hit:
 
-+sweetspot (f14-15): 12%, 20 bkb, 120 kbg @ 80 degrees
++sweetspot (f14-15): 12%, 30 bkb, 115 kbg @ 80 degrees
 
--Sourspot (f16-17): 10%, 20 bkb, 100 kbg @ 70 degrees
+-Sourspot (f16-17): 10%, 30 bkb, 115 kbg @ 70 degrees
 
 ## ***[Attributes]***
 =Terminal velocity increased from 1.9 > 2.3
@@ -899,29 +899,25 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 -Top run speed reduced 4.0 > 2.7
 
-+Acceleration A increased 0.12 > 0.15
-
--Acceleration B reduced 0.02 > 0.01
-
 ## ***[Grab]***
 +Grab hitboxes Y offset increased by 1 unit
 
 +Outer grab hitbox X offset by 0.5 units
 
 ## ***[New Bair]***
-+f7-21
++f10-19
 
-	{f7-8}
+	{f10-12}
 
--13%, 20/100 @ 361 (quill hitboxes)
+-14%, 40/90 @ 361 (quill hitboxes)
 
--12%, 20/80 @ 361 (face hitbox)
+-12%, 40/90 @ 361 (face hitbox)
 
-	{f9-20}
+	{f13-19}
 
--9%, 20/100 @ 361 (quill hitboxes)
+-9%, 20/90 @ 361 (quill hitboxes)
 
--8%, 20/80 @ 361 (face hitbox)
+-6%, 20/90 @ 361 (face hitbox)
 
 -IASA 38
 
@@ -939,11 +935,7 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 ## ***[Down tilt] ***
 -f6 > f8
 
--KBG increased 119 > 125
-
 +IASA 29 > 28
-
-=Dash animation changed to look/feel smoother
 
 ## ***[SideB]***
 -Size reduced 3.0 > 2.5
@@ -969,7 +961,7 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 -BKB 40 > 0
 
-+WDSK 0 > 60
++WDSK 0 > 80
 
 
 ## ***[New Dash Attack]***
@@ -977,7 +969,7 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 =8%
 
-+40bkb, 90 kbg @ 38 degrees
++40bkb, 90 kbg @ 72 degrees
 
 =IASA 40
 
@@ -985,25 +977,20 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 -IASA 32 > 37
 
 ## ***[Dair]***
--Spike removed
 
 	{New stats}
 
-=Early hits 12%, 20/90 @ 60 degrees
+-Sweetspot: 14%, 30/90 @ 280 degrees (spike > meteor)
+
+-Sourspot: 14%, 30/90 @ 361 degrees
 
 =Late hits 10%, 20/80 @ 361 degrees
-
--Startup increased 9f > 10f
 
 -All hitbox sizes reduced by 0.5 (4.5 > 4, 4 > 3.5)
 
 -Leg hitbox moved in toward his body to be less deceptively disjointed
 
--Vertical velocity reduced
-
--IASA 36 > 41
-
-+Generous slide added to landing to enable easy edgecancels
++Slide added to landing to enable edgecancels
 
 
 ## ***[Down B]***
@@ -1022,13 +1009,11 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 New stats:
 +Angle changed 73 > 95
 
-+Startup decreased 24 > 17
-
--Endlag increased 19 > 26
+-Endlag increased 19 > 24
 
 -Base knockback reduced 95 > 70
 
--KBG increased 70 > 145
+-KBG increased 70 > 140
 
 # [Squirtle (𝛽)]
 
