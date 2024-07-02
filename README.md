@@ -882,15 +882,15 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 -First hit (f8-11): 
 
-+Leg hitbox: 4%, 40 WDSK, 120 kbg @ 92 degrees.
++Leg hitbox: 4%, 50 WDSK, 120 kbg @ 90 degrees.
 
-+Foot hitbox: 4%, 30 WDSK, 120 kbg @ 92 degrees.
++Foot hitbox: 4%, 30 WDSK, 120 kbg @ 90 degrees.
 
 +Second hit:
 
-+sweetspot (f14-15): 12%, 30 bkb, 115 kbg @ 80 degrees
++sweetspot (f14-15): 12%, 40 bkb, 105 kbg @ 80 degrees
 
--Sourspot (f16-17): 10%, 30 bkb, 115 kbg @ 70 degrees
+-Sourspot (f16-17): 10%, 40 bkb, 80 kbg @ 70 degrees
 
 ## ***[Attributes]***
 =Terminal velocity increased from 1.9 > 2.3
