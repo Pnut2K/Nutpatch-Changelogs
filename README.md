@@ -877,6 +877,13 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 # [Sonic (𝛽)]
 
+## ***[Jab 3]***
++Angle increased 30 > 55
++Damage increased 4 > 8
+
+## ***[Jab 2]***
+-Startup increased 2 > 5
+
 ## ***[New uair]***
 +9f landing lag
 
