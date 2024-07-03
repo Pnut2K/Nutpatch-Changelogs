@@ -879,7 +879,10 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 ## ***[Jab 3]***
 +Angle increased 30 > 55
+
 +Damage increased 4 > 8
+
++IASA decreased 31 > 25
 
 ## ***[Jab 2]***
 -Startup increased 2 > 5
@@ -889,9 +892,9 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 -First hit (f8-11): 
 
-+Leg hitbox: 4%, 50 WDSK, 120 kbg @ 90 degrees.
++Leg hitbox: 4%, 50 WDSK, 100 kbg @ 87 degrees.
 
-+Foot hitbox: 4%, 30 WDSK, 120 kbg @ 90 degrees.
++Foot hitbox: 4%, 25 WDSK, 100 kbg @ 87 degrees.
 
 +Second hit:
 
