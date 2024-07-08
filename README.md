@@ -794,15 +794,15 @@ IASA 51
 
 -Mortar timer: infinite > 15f
 
-+Mortar slam made to link more reliably into launch hitbox (100 WDSK, 0 BKB, 100KBG @ 93 > 80 WDSK, 0 BKB, 120KBG @ 92)
-
--Increased endlag
++Mortar slam made to link more reliably into launch hitbox (100 WDSK, 0 BKB, 100KBG @ 93 > 80 WDSK, 0 BKB, 120KBG @ 100)
 
 -Mortar shield damage reduced
 
 +Slam hitboxes spaced to cover both sides
 
 -Endlag increased (23 > 36)
+
++Time between slam and fire decreased 17 > 
 
   {New Mortar stats}
 
@@ -832,10 +832,14 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 -Endlag increased 20 > 23
 
-## ***[Cipher]***
+## ***[Cypher]***
 -Release hitbox removed
 
 -Hurtbox removed
+
+-Can no longer use specials directly out of cypher (move must end fully)
+
++Cypher release animation can now be airdodged out of starting on frame 4
 
 +Acceleration increased 0.1 > 0.2
 
@@ -843,29 +847,31 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 +Added hitbox on cipher body for the first 9 frames of ascent 
 
++Startup hitbox angle increased 169 > 90
+
++Hangtime hitboxes changed to suit vertical combos (All hitboxes: 6%, 80 BKB, 40 KBG, @ 90 degrees) 
+
 ## ***[Tranq]***
 -Opponents struck by tranq dart will now always turn to face toward Snake when hit
 
-## ***[C4]***
-+Detonate animation is now 1.5x faster to supplement C4 as a combo tool
+## ***[C4 > Flashbang]***
+
++Detonate animation is now 1.5x faster to supplement Flashbang as a combo tool
 
 +Detonate IASA 36 > 30
 
   {Stuck} 
 
-=Fixed knockback multihit (4x 125 WDSK/100 KBG 3% @ 90 degrees) to make it a combo tool/Only kill in the magnifier
--Hitbox size 14 > 7
++Fixed knockback paraylzer ( 80 WDSK/100 KBG 10% @ 90 degrees) to make it a combo tool
+
+-Hitbox size 14 > 8
 
   {Loose} 
-
--15% > 12%
-
--kbg 92 > 80
-
-+bkb 25 > 40
+  
+-Stats unified with stuck version
 
 ## ***[Attributes]***
--Weight decreased 105 > 90
+-Weight decreased 105 > 87
 
 +Initial dash 1.45 > 1.5
 
@@ -985,6 +991,8 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 ## ***[Fsmash]***
 -IASA 32 > 37
+
+=Animation timings adjusted to more accurately reflect active frames
 
 ## ***[Dair]***
 
