@@ -158,7 +158,7 @@ Stats: 6%, 40 BKB 50 KBG @ 80 degrees, 25 frames of endlag
 +Angle increased 80 > 90
 
   {+New property: Flame trap]
-+When released, eruption will now create a patch of blue flame on the ground that is active for 5 seconds or until contact is made with another player; It will deal 8% with no hitstun when touched by an opponent. He can only have one flame trap active at a time, subsequent eruptions will not replace the prior flame trap. Flame traps do not spawn if Ike is too close to the ledge.
++When released, eruption will now create a patch of blue flame on the ground that is active for 5 seconds; It will deal 4% with no hitstun every 30 frames when touched by an opponent. He can only have one flame trap active at a time, subsequent eruptions will not replace the prior flame trap. Flame traps do not spawn if Ike is too close to the ledge.
 
 ## ***[Ftilt]***
 +Forearm intangibility on frame 10
@@ -428,6 +428,8 @@ Stats:
 # [Mario (𝛼)]
 ## ***[Attributes]***
 -Weight reduced 100 > 90
+
+-Terminal velocity increased 1.7 > 1.9
 
 +Run speed increased 1.5 > 1.75
 
@@ -862,7 +864,7 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
   {Stuck} 
 
-+Fixed knockback paraylzer ( 80 WDSK/100 KBG 10% @ 90 degrees) to make it a combo tool
++Fixed knockback paraylzer ( 45 WDSK/100 KBG 10% @ 90 degrees) to make it a combo tool
 
 -Hitbox size 14 > 8
 
