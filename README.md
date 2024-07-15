@@ -135,7 +135,7 @@ Damage reduced 18/16 > 16/14
   {Summary}
 Ike fires a beam from his sword that travels a moderate distance before disappearing.
 
-Stats: 6%, 40 BKB 50 KBG @ 80 degrees, 25 frames of endlag
+Stats: 6%, 40 BKB 80 KBG @ 80 degrees, 25 frames of endlag
 
 ## ***[Neutral B]***
 +Startup reduced 25 > 17
@@ -184,7 +184,7 @@ Stats: 6%, 40 BKB 50 KBG @ 80 degrees, 25 frames of endlag
 4 hitboxes > 1 hitbox
 
   {Landing hit new stats}
-6%, 70 BKB, 150 KBG @ 50 degrees
+6%, 50 BKB, 170 KBG @ 361 degrees
 
 # [King DeDeDe (𝛽)]
 
@@ -761,7 +761,7 @@ IASA 51
 
 +Last 2 frames send at 281, 40/60, 12%
 
--12f landing lag
++9f landing lag
 
 ## ***[Nair]***
 +Sped up 30%
@@ -791,10 +791,12 @@ IASA 51
 
 -Damage reduced 15 > 14, 14 > 13
 
+-Leg BKB reduced 40 > 30
+
 ## ***[Up smash]***
 +slam hit startup f11 > f8
 
--Mortar timer: infinite > 15f
+-Mortar timer: infinite > 20f
 
 +Mortar slam made to link more reliably into launch hitbox (100 WDSK, 0 BKB, 100KBG @ 93 > 80 WDSK, 0 BKB, 120KBG @ 100)
 
@@ -808,7 +810,7 @@ IASA 51
 
   {New Mortar stats}
 
-  +14%, 75/45 @ 73 > 15%, 30/95 @ 80 
+  +14%, 75/45 @ 73 > 16%, 25/110 @ 85
 
 ## ***[Forward smash]***
 +Backported 3.02 behavior
@@ -841,7 +843,7 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 -Can no longer use specials directly out of cypher (move must end fully)
 
-+Cypher release animation can now be airdodged out of starting on frame 4
++Cypher release animation can now be canceled directly into airdodge
 
 +Acceleration increased 0.1 > 0.2
 
@@ -862,15 +864,9 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 +Detonate IASA 36 > 30
 
-  {Stuck} 
-
-+Fixed knockback paraylzer ( 45 WDSK/100 KBG 10% @ 90 degrees) to make it a combo tool
++Fixed knockback paraylzer (10% 40 WDSK/100 KBG @ 90 degrees on ground, 10% 80 WDSK/100 KBG @ 90 degrees when stuck ) to make it a combo tool
 
 -Hitbox size 14 > 8
-
-  {Loose} 
-  
--Stats unified with stuck version
 
 ## ***[Attributes]***
 -Weight decreased 105 > 87
