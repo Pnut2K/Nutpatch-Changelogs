@@ -259,7 +259,7 @@ A (Waddle bomber): Causes the active waddle to explode after a short delay, deal
 
 -Max run speed reduced 2.1 > 1.8
 
-[Link (𝛽)]
+# [Link (𝛽)]
 
 ## ***[General]***
 -Ledgegrab release timing standardized to the rest of the cast
@@ -426,10 +426,13 @@ Stats:
 -Active frames reduced 11 > 8
 
 # [Mario (𝛼)]
+
 ## ***[Attributes]***
 -Weight reduced 100 > 90
 
--Terminal velocity increased 1.7 > 1.9
+-Terminal velocity increased 1.7 > 2.0
+
+-Gravity modifier increased 0.095 > 0.11
 
 +Run speed increased 1.5 > 1.75
 
@@ -443,6 +446,12 @@ Stats:
 -Ledgegrab box size reduced
 
 +Height increased 1.125 > 1.25
+
+## ***[Fireball]***
+-Damage reduced 7 > 5
+
+-New stats: 22 bkb/20 kbg > 10 WDSK, 0 BKB, 100 KBG
+
 
 ## ***[DownB]***
 -Consumed on frame 5
@@ -465,8 +474,16 @@ Stats:
 
 -Late hit KGB reduced 100 > 80
 
+## ***[Dair]***
+-Hitbox sizes reduced by 15%
+
+-Landing hitbox removed
+
 ## ***[Up smash]***
 -Endlag 26 > 30
+
+## ***[Forward smash]***
+-Active frames reduced 5 > 3
 
 ## ***[Dtilt]***
 -KBG increased 80 > 110 (all hitboxes)
@@ -896,44 +913,32 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 -First hit (f8-11): 
 
-+Leg hitbox: 4%, 50 WDSK, 100 kbg @ 87 degrees.
++Leg hitbox: 4%, 50 WDSK, 100 kbg @ 92 degrees.
 
-+Foot hitbox: 4%, 25 WDSK, 100 kbg @ 87 degrees.
++Foot hitbox: 4%, 25 WDSK, 100 kbg @ 92 degrees.
 
 +Second hit:
 
-+sweetspot (f14-15): 12%, 40 bkb, 100 kbg @ 80 degrees
++sweetspot (f14-15): 12%, 30 bkb, 110 kbg @ 85 degrees
 
--Sourspot (f16-17): 10%, 40 bkb, 80 kbg @ 70 degrees
+-Sourspot (f16-17): 10%, 30 bkb, 100 kbg @ 70 degrees
 
 ## ***[Attributes]***
-=Terminal velocity increased from 1.9 > 2.3
+-Terminal velocity increased from 1.9 > 2.3
 
 +Shield size increased to properly cover back of head during GuardOn 9 > 9.75
 
--Top run speed reduced 4.0 > 2.7
+-Top run speed reduced 4.0 > 2.8
 
 ## ***[Grab]***
 +Grab hitboxes Y offset increased by 1 unit
 
 +Outer grab hitbox X offset by 0.5 units
 
-## ***[New Bair]***
-+f10-19
+## ***[Bair]***
++Startup reduced f13 > f12
 
-	{f10-12}
-
--14%, 40/90 @ 361 (quill hitboxes)
-
--12%, 40/90 @ 361 (face hitbox)
-
-	{f13-19}
-
--9%, 20/90 @ 361 (quill hitboxes)
-
--6%, 20/90 @ 361 (face hitbox)
-
--IASA 38
++New animation (Head intangible for frames 1-3)
 
 ## ***[Fair]***
 =Animation adjustments
@@ -962,6 +967,8 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 +6%, 50bkb 80kbg @ 120
 
++ledgegrab box activates earlier for all variants
+
 ## ***[AirSideB]***
 -No longer sends into tumble
 
@@ -977,6 +984,9 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 +WDSK 0 > 80
 
++ledgegrab box activates earlier for all variants
+
++Side B resource taken at end of startup rather than frame 1
 
 ## ***[New Dash Attack]***
 -f6-12
@@ -1012,14 +1022,16 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 ## ***[Down B]***
 +SDI modifier on first hit reduced 1.5 > 1.0
 
-## ***[Up B (air)]***
--Vertical velocity (height) reduced 0.95 > 0.9
+## ***[Up B]***
+-(Air only) Vertical velocity (height) reduced 0.95 > 0.9
 
-+ledgegrab box height increased 8.4 > 9.4
++Up B ledge grab box uses a unique one instead of 0; vertical sweetspot is slightly more lenient
 
 +Ledgegrab enabled sooner f31 > 28 
 
 +Actionability is now a resource instead of instantly consumed no matter what
+
++Up B now has a black flash when Up B is inactionable
 
 ## ***[Uthrow]***
 New stats:
