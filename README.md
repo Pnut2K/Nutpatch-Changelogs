@@ -430,11 +430,13 @@ Stats:
 ## ***[Attributes]***
 -Weight reduced 100 > 90
 
--Terminal velocity increased 1.7 > 2.0
+-Terminal velocity increased 1.7 > 1.9
 
--Gravity modifier increased 0.095 > 0.11
+-Gravity modifier increased 0.095 > 0.1
 
 +Run speed increased 1.5 > 1.75
+
++Fullhop height increased 2.395 > 2.6345
 
 ## ***[Up B]***
 -UpB walljump removed
@@ -911,17 +913,17 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 ## ***[New uair]***
 +9f landing lag
 
--First hit (f8-11): 
+First hit (f5-9): 
 
-+Leg hitbox: 4%, 50 WDSK, 100 kbg @ 92 degrees.
++Leg hitbox: 4%, 50 WDSK, 100 kbg @ 88 degrees.
 
-+Foot hitbox: 4%, 25 WDSK, 100 kbg @ 92 degrees.
++Foot hitbox: 4%, 25 WDSK, 100 kbg @ 88 degrees.
 
-+Second hit:
+Second hit:
 
-+sweetspot (f14-15): 12%, 30 bkb, 110 kbg @ 85 degrees
++sweetspot (f11-13): 12%, 30 bkb, 115 kbg @ 85 degrees
 
--Sourspot (f16-17): 10%, 30 bkb, 100 kbg @ 70 degrees
+-Sourspot (f14-15): 10%, 30 bkb, 100 kbg @ 70 degrees
 
 ## ***[Attributes]***
 -Terminal velocity increased from 1.9 > 2.3
