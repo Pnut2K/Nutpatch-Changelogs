@@ -21,6 +21,11 @@
 
 .include Source/Community/Hooktype.asm
 
+##########################################
+[Project+] Skip strap screen [PyotrLuzhin]
+##########################################
+op b 0x298		@ $806CADE8
+
 ######################################################
 BA and BLA are usable instructions v1.3 [Eon, taukhan]
 ######################################################

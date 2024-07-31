@@ -841,8 +841,6 @@ Restored the rocket launcher fsmash from brawl, but this time on down smash. If 
 
 f22-28, 16%, 80 BKB 70 KBG @ 90
 
-{Sourspot stats}
-
 ## ***[Up tilt]***
 +Ported Ultimate animation
 
@@ -862,7 +860,7 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 
 -Can no longer use specials directly out of cypher (move must end fully)
 
-+Cypher release animation can now be canceled directly into airdodge
++Cypher release animation can now be canceled directly into airdodge after a 4 frame delay
 
 +Acceleration increased 0.1 > 0.2
 
@@ -888,6 +886,8 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 -Hitbox size 14 > 8
 
 ## ***[Attributes]***
++Short hop height decreased 1.59 > 1.4
+
 -Weight decreased 105 > 87
 
 +Initial dash 1.45 > 1.5
@@ -913,15 +913,15 @@ f22-28, 16%, 80 BKB 70 KBG @ 90
 ## ***[New uair]***
 +9f landing lag
 
-First hit (f5-9): 
+First hit (f5-8): 
 
-+Leg hitbox: 4%, 50 WDSK, 100 kbg @ 88 degrees.
++Leg hitbox: 4%, 60 WDSK, 100 kbg @ 92 degrees.
 
-+Foot hitbox: 4%, 25 WDSK, 100 kbg @ 88 degrees.
++Foot hitbox: 4%, 30 WDSK, 100 kbg @ 92 degrees.
 
 Second hit:
 
-+sweetspot (f11-13): 12%, 30 bkb, 115 kbg @ 85 degrees
++sweetspot (f12-13): 12%, 40 bkb, 115 kbg @ 85 degrees
 
 -Sourspot (f14-15): 10%, 30 bkb, 100 kbg @ 70 degrees
 
@@ -1004,6 +1004,9 @@ Second hit:
 
 =Animation timings adjusted to more accurately reflect active frames
 
+## ***[Dsmash]***
++Startup reduced 10 > 7
+
 ## ***[Dair]***
 
 	{New stats}
@@ -1025,7 +1028,7 @@ Second hit:
 +SDI modifier on first hit reduced 1.5 > 1.0
 
 ## ***[Up B]***
--(Air only) Vertical velocity (height) reduced 0.95 > 0.9
+-(Air only) Vertical velocity (height) reduced 0.95 > 0.925
 
 +Up B ledge grab box uses a unique one instead of 0; vertical sweetspot is slightly more lenient
 
