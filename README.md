@@ -73,9 +73,7 @@ Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, R.O.B, 
 -Air punch cancel lag 9 > 12
 
 ## ***[Fair]***
--Late hits base knockback 50 > 40
-
--Early hits kbg decreased 100 > 90
+-Late hits base knockback decreased 50 > 30
 
 -Damage 16 > 14
 
@@ -106,7 +104,9 @@ Damage reduced 18/16 > 16/14
 # [Ike (𝛽)]
 
 ## ***[Attributes]***
--Weight reduced 100 > 94
+-Weight reduced 100 > 90
+
++Jumpsquat reduced 5 > 4
 
 ## ***[Nair]***
 +First active frame 7 > 5
@@ -162,6 +162,13 @@ Stats: 6%, 40 BKB 80 KBG @ 80 degrees, 25 frames of endlag
 
 ## ***[Ftilt]***
 +Forearm intangibility on frame 10
+
+## ***[Dtilt]***
++Startup reduced 15 > 8
+
+-Meteor removed (270 > 90) 
+
++Other hitbox angles raised (60/70 > 70/80)
 
 ## ***[Quickdraw]***
 -Base grounded speed reduced 4 > 3.4
@@ -940,7 +947,7 @@ Second hit:
 ## ***[Bair]***
 +Startup reduced f13 > f12
 
-+New animation (Head intangible for frames 1-3)
+=Animation adjusted to convey more impact
 
 ## ***[Fair]***
 =Animation adjustments
