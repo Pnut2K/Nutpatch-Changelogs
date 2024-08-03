@@ -113,16 +113,10 @@ Damage reduced 18/16 > 16/14
 
 +Animation sped up by 10%
 
--Active frames reduced 12 > 8
 
 ## ***[Fair]***
--Animation ported from ultimate (range heavily reduced)
 
-+Startup reduced f17 > f11
-
-+Landing lag reduced 13 > 11
-
-+Active frames increased 4 > 6
++Startup reduced f17 > f15
 
 
 ## ***[Bair]***
@@ -259,6 +253,18 @@ A (Waddle bomber): Causes the active waddle to explode after a short delay, deal
 ## ***[Ftilt]***
 +Endlag reduced 22 > 19
 
+# [Ganondorf (𝛽)]
+
+## ***[Up tilt]***
++Restored linking hitbox
+     {New stats (All hitboxes)}: 8%, 50 WDSK, 0 BKB, 100 KBG @ 175
+
+-Damage reduced 22 > 17
+
+-Rear hitbox removed
+
+-Shield damage reduced 25 > 10
+
 # [Knuckles (𝛽)]
 
 ## ***[Attributes]***
@@ -299,7 +305,7 @@ A (Waddle bomber): Causes the active waddle to explode after a short delay, deal
 # [Lucario (𝛼)]
 
 ## ***[Attributes]***
--Terminal velocity increased 2 > 2.9
+-Terminal velocity increased 2 > 2.7
 
 -Weight reduced 94 > 75
 
@@ -450,7 +456,7 @@ Stats:
 
 -Startup increased f3 > f5
 
--Intangibility reduced 4f > 3f
+-Intangibility reduced 4f > 1f
 
 -Ledgegrab box size reduced
 
@@ -463,6 +469,14 @@ Stats:
 
 
 ## ***[DownB]***
+
+New move: Star Spin
+    {Summary}
+    Lifted from Mario Galaxy, Mario spins around propelling him up into the air. This move can be used for combo extensions as well as recovery.
+
+    {Stats}
+    Frame 10-14, 8%, 90BKB 30 KBG @ 80 degrees
+
 -Consumed on frame 5
 
 -Once per airtime 
@@ -949,6 +963,14 @@ Second hit:
 
 =Animation adjusted to convey more impact
 
+## ***[Nair}***
+New property: Bounce
+    {Summary}:
+    If the A button is held when landing with nair, sonic will bounce off the ground as an homage to the bounce bracelet from Sonic Adventure 2. This bounce can only be executed once per airtime, and can be acted out of on hit (either nair or bounce) by either double jumping or doing aerials. On whiff, Sonic is locked to his bounce arc and cannot act until the move completes fully. Additionally, the move has increased landing lag on whiff.
+
+    {Stats}:
+4%, 60 bkb 40 kbg @ 58 degrees
+
 ## ***[Fair]***
 =Animation adjustments
 
@@ -1091,6 +1113,16 @@ New stats:
 ## ***[Up B]***
 +Increased vertical speed 3.2 > 3.6
 
+# [Wolf (𝛽)]
+## ***[Nair]***
+-Angle changed 365 > 290 (Follow-me > spike)
+
+-SDI modifier increased 0.8 > 1.0
+
++WDSK increased 20 > 30
+
+## ***[Flash]***
+-Damage reduced 15 > 14
 
 # [Yoshi (𝛽)]
 
@@ -1109,3 +1141,16 @@ New stats:
 
 +Inner hitbox moved closer to end of tongue (Z offset -5 > -2.5)
 
+
+# [Zero Suit Samus (𝛽)]
+
+## ***[Fair]***
++Both hits hitbox sizes increased 4/3.5/3.5 > 4.3 (all)
+
++First hit WDSK increased 25 > 40
+
++First hit angles adjusted  75/77/80 > 74/78/82
+
++First hit hitbox priority reversed (waist > leg > foot | foot > leg > waist)
+
++Gap between hits reduced (assuming first hit connects on first possible frame) 11 > 8
