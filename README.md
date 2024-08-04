@@ -5,7 +5,7 @@ https://drive.google.com/file/d/1b2dG55pnoq6yF65IvL1gI9WhkfM6mpjO/view?usp=drive
 # ***𝛽 = Based on P+ 3.02***
 
 # [Chars with no changes from 3.02]
-Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, R.O.B, Wario, Jigglypuff, Game and watch, ZSS, Ivysaur, Wolf, Ice Climbers, Ganon, Kirby,
+Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, Wario, Jigglypuff, Game and watch, Ivysaur, Ice Climbers
 
 # [Charizard (𝛽)]
 
@@ -50,7 +50,11 @@ Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, R.O.B, 
 
 +Endlag reduced 28 > 20
 
-+Hitbox size 9 > 11
++Hitbox size 9 > 10
+
++KBG reduced 45 > 30
+
+-BKB reduced 110 > 90
 
   {Aerial}
 -Angle adjusted 361 > 50
@@ -264,6 +268,10 @@ A (Waddle bomber): Causes the active waddle to explode after a short delay, deal
 -Rear hitbox removed
 
 -Shield damage reduced 25 > 10
+
+# [Kirby (𝛽)]
+
+-Size increased by 5%
 
 # [Knuckles (𝛽)]
 
@@ -765,7 +773,17 @@ IASA 51
 
 ## ***[Launcher stats]***
 6%, 90 BKB, 45 KBG, @ 110 degrees
- 
+
+# [R.O.B (𝛽)]
+
+## ***[SideB (grounded)]***
+
++Endlag reduced by 50% on hit (20f > 10f)
+
+## ***[Attributes]***
+
+-Weight reduced 104 > 95
+
 # [Sheik (𝛼)]
 
 ## ***[Down throw]***
@@ -815,7 +833,7 @@ IASA 51
 +Hitbox sizes on first two hits changed to mimic falcon nair
 
 ## ***[Fair]***
--Spike removed 
+-Spike removed when not powered up by rocket jump 
 
 +Meteor can now hit grounded opponents
 
@@ -858,9 +876,9 @@ IASA 51
 ## ***[Down smash]***
   {Summary}
 
-Restored the rocket launcher fsmash from brawl, but this time on down smash. If jump is held during the active frames of the move, Snake will be propelled upward in exchange for taking 8 damage.
+Restored the rocket launcher fsmash from brawl, but this time on down smash. If jump is held during the active frames of the move, Snake will be propelled upward in exchange for taking 8 damage. Similar to rob boost, rocket jumping will buff snake's aerials by 2% before he touches the ground. Additionally, fair goes from being a meteor to a spike.
 
-f22-28, 16%, 80 BKB 70 KBG @ 90
+f22-28, 16%, 80 BKB 40 KBG @ 85
 
 ## ***[Up tilt]***
 +Ported Ultimate animation
