@@ -194,13 +194,15 @@ Stats: 6%, 40 BKB 80 KBG @ 80 degrees, 25 frames of endlag
 # [King DeDeDe (𝛽)]
 
 ## ***[Attributes]***
--Weight reduced 107 > 104
+-Weight reduced 107 > 102
 
 +Ledgegrab box Y offset increased 8 > 10
 
 +Ledgegrab box height increased 13.5 > 14
 
 -Ledgegrab box width reduced 14 > 12
+
+-3 Jumps > 2 Jumps
 
 ## ***[SideB]***
 +Speed increased by 50%
@@ -246,13 +248,13 @@ Stats: 6%, 40 BKB 80 KBG @ 80 degrees, 25 frames of endlag
 ## ***[New Neutral B: Waddle command]***
 +Dedede blows a whistle and can command his active waddle with the DPad during its active frames.
 
-D-pad Up: Makes the waddles jump, now with a hitbox during ascent. 3%, 70 BKB, 30 KBG @ 90 degrees.
+X/Y: Makes the waddles jump, now with a hitbox during ascent. 3%, 70 BKB, 30 KBG @ 90 degrees.
 
-D-pad left/right: Makes the waddle turn around (one way)
+A/Z: Makes the waddle turn around (one way)
 
-D-pad Down: causes the waddle to stop in place for a moment
+L/R: causes the waddle to stop in place for a moment
 
-A (Waddle bomber): Causes the active waddle to explode after a short delay, dealing 8%, 80 BKB, 60 KBG, @ 90 degrees
+Hold B (Waddle bomber): Causes the active waddle to explode after a short delay, dealing 8%, 80 BKB, 60 KBG, @ 90 degrees
 
 ## ***[Ftilt]***
 +Endlag reduced 22 > 19
@@ -392,6 +394,7 @@ Bringing Lucas somewhat closer to his original moveset from mother 3, PK Freeze 
 Stats:
 
 4%, 40 BKB, 20 KBG @ 70
+16f landing lag
 
 ## ***[Down B]***
 -Initial/hold hitboxes made flinchless
@@ -710,9 +713,31 @@ Strong hit stats:
 ## ***[Down tilt]***
 +Added grounded meteor tipper hitbox
 
+-Startup increased 7 > 9
+
   {Stats}
 
-10%, 45 BKB, 90 KBG @270
+10%, 50 BKB, 100 KBG @275
+
+## ***[New fair: Axe kick]***
+f11-14
+
+Leg hitbox: 8%, 30 BKB 100 KBG @ 60 degrees
+
+Foot hitbox: 13%,  40 BKB 100 KBG @  275 degrees
+
+10f landing lag
+
+
+## ***[Dthrow]***
+-70 BKB 125 KBG @ 78 degrees
+
+## ***[Up tilt]***
++First hit adjusted to link better
+
++First hit angle 90 > 92
+
++50 bkb 0 kbg > 65 WDSK 100 KBG
 
 # [Roy (𝛼)]
 
@@ -924,6 +949,10 @@ f22-28, 16%, 80 BKB 40 KBG @ 85
 
 -Hitbox size 14 > 8
 
++Phantom stick removed
+
+-Stick activity reduced 15f > 10f
+
 ## ***[Attributes]***
 +Short hop height decreased 1.59 > 1.4
 
@@ -987,7 +1016,7 @@ New property: Bounce
     If the A button is held when landing with nair, sonic will bounce off the ground as an homage to the bounce bracelet from Sonic Adventure 2. This bounce can only be executed once per airtime, and can be acted out of on hit (either nair or bounce) by either double jumping or doing aerials. On whiff, Sonic is locked to his bounce arc and cannot act until the move completes fully. Additionally, the move has increased landing lag on whiff.
 
     {Stats}:
-4%, 60 bkb 40 kbg @ 58 degrees
+4%, 60 bkb 40 kbg @ 68 degrees
 
 ## ***[Fair]***
 =Animation adjustments
@@ -1014,7 +1043,7 @@ New property: Bounce
 
 -Can only slidekick after the JC window has passed
 
-+6%, 50bkb 80kbg @ 120
++6%, 80bkb 20 kbg @ 50 degrees
 
 +ledgegrab box activates earlier for all variants
 
@@ -1037,14 +1066,16 @@ New property: Bounce
 
 +Side B resource taken at end of startup rather than frame 1
 
-## ***[New Dash Attack]***
+## ***[New Dash Attack: The light speed dash]***
 -f6-12
 
-=8%
+f6-8
+8%, 40bkb, 60 kbg @ 100 degrees
 
-+40bkb, 90 kbg @ 72 degrees
+f9-14
+4%, 20bkb 60 kbg @ 100 degrees
 
-=IASA 40
++IASA 40 > 36
 
 ## ***[Fsmash]***
 -IASA 32 > 37
@@ -1056,13 +1087,15 @@ New property: Bounce
 
 ## ***[Dair]***
 
-	{New stats}
+-New stats
+    Spike: 30 BKB 92 KBG @ 287 > 40 BKB, 80 KBG @ 285
+    Leg: 45 BKB 88 KBG @ 37 > 40 BKB, 80 KBG @ 361
+    All late hit hitboxes changed to 30 BKB 80 KBG @ 361
 
--Sweetspot: 14%, 30/90 @ 280 degrees (spike > meteor)
 
--Sourspot: 14%, 30/90 @ 361 degrees
+-Spike hitbox moved from torso to head
 
-=Late hits 10%, 20/80 @ 361 degrees
+-Hitbox priority reversed (Spike > Leg | Leg > spike)
 
 -All hitbox sizes reduced by 0.5 (4.5 > 4, 4 > 3.5)
 
