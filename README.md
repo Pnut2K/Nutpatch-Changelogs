@@ -2,7 +2,7 @@
 https://drive.google.com/file/d/1b2dG55pnoq6yF65IvL1gI9WhkfM6mpjO/view?usp=drive_link
 
 # ***𝛼 = Based on P+ 2.5.2***
-# ***𝛽 = Based on P+ 3.02***
+# ***𝛽 = Based on P+ 3.05***
 
 # [Chars with no changes from 3.02]
 Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, Wario, Jigglypuff, Game and watch, Ivysaur, Ice Climbers
@@ -840,7 +840,7 @@ IASA 51
 
 -active f7-11 
 
-+first 3 frames send at 87, 30/60, 12%
++first 3 frames send at 75, 30/60, 12%
 
 +Last 2 frames send at 281, 40/60, 12%
 
@@ -981,17 +981,17 @@ f22-28, 16%, 80 BKB 40 KBG @ 85
 ## ***[New uair]***
 +9f landing lag
 
-First hit (f5-8): 
+First hit (f8-12): 
 
-+Leg hitbox: 4%, 60 WDSK, 100 kbg @ 92 degrees.
++Leg hitbox: 4%, 60 WDSK, 100kbg @ 87 degrees.
 
-+Foot hitbox: 4%, 30 WDSK, 100 kbg @ 92 degrees.
++Foot hitbox: 4%, 30 WDSK, 100 kbg @ 87 degrees.
 
 Second hit:
 
-+sweetspot (f12-13): 12%, 40 bkb, 115 kbg @ 85 degrees
++sweetspot (f14-16): 12%, 20 bkb, 120 kbg @ 85 degrees
 
--Sourspot (f14-15): 10%, 30 bkb, 100 kbg @ 70 degrees
+-Sourspot (f17-18): 10%, 20 bkb, 100 kbg @ 70 degrees
 
 ## ***[Attributes]***
 -Terminal velocity increased from 1.9 > 2.3
@@ -1008,7 +1008,7 @@ Second hit:
 ## ***[Bair]***
 +Startup reduced f13 > f12
 
-=Animation adjusted to convey more impact
+= New animation, more vertical range at the cost of horizontal
 
 ## ***[Nair}***
 New property: Bounce
@@ -1030,9 +1030,11 @@ New property: Bounce
 -Meteor bkb 50 > 40
 
 ## ***[Down tilt] ***
--f6 > f8
+-Startup increased -f6 > f7
 
-+IASA 29 > 28
++IASA reduced 29 > 24
+
+-All hitbox angles reduced 100/100/104 > 70/70/75
 
 ## ***[SideB]***
 -Size reduced 3.0 > 2.5
@@ -1070,10 +1072,10 @@ New property: Bounce
 -f6-12
 
 f6-8
-8%, 40bkb, 60 kbg @ 100 degrees
+12%, 20bkb, 100 kbg @ 361 degrees
 
 f9-14
-4%, 20bkb 60 kbg @ 100 degrees
+9%, 20bkb 100 kbg @ 361 degrees
 
 +IASA 40 > 36
 
@@ -1087,17 +1089,13 @@ f9-14
 
 ## ***[Dair]***
 
--New stats
-    Spike: 30 BKB 92 KBG @ 287 > 40 BKB, 80 KBG @ 285
-    Leg: 45 BKB 88 KBG @ 37 > 40 BKB, 80 KBG @ 361
-    All late hit hitboxes changed to 30 BKB 80 KBG @ 361
-
+-Startup increased 9 > 11
 
 -Spike hitbox moved from torso to head
 
 -Hitbox priority reversed (Spike > Leg | Leg > spike)
 
--All hitbox sizes reduced by 0.5 (4.5 > 4, 4 > 3.5)
+-All hitbox sizes reduced (4.5 > 4, 4 > 3)
 
 -Leg hitbox moved in toward his body to be less deceptively disjointed
 

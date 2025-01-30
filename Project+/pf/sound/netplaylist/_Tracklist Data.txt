@@ -2044,8 +2044,8 @@ Hyrule_Castle.tlst - 10 tracks
 	Frequency: 40
 
 	Hyrule Castle
-	Zelda/Hyrule Castle (ALBTW).brstm
-	Volume: 90
+	Zelda/Hyrule Castle.brstm
+	Volume: 80
 	Frequency: 40
 
 	Title (Link's Crossbow Training)
@@ -4638,7 +4638,7 @@ Temple.tlst - 5 tracks
 	Frequency: 40
 
 ################
-Temple_of_Time.tlst - 10 tracks
+Temple_of_Time.tlst - 11 tracks
 
 	Ganondorf Battle (Twilight Princess)
 	Zelda/Ganondorf Battle.brstm
@@ -4672,6 +4672,11 @@ Temple_of_Time.tlst - 10 tracks
 
 	Great Temple / Temple
 	C03.brstm (0x2735)
+	Frequency: 40
+
+	Hyrule Castle
+	Zelda/Hyrule Castle.brstm
+	Volume: 80
 	Frequency: 40
 
 	Title (The Legend of Zelda)
