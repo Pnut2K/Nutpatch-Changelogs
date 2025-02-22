@@ -4,7 +4,7 @@ https://drive.google.com/file/d/1b2dG55pnoq6yF65IvL1gI9WhkfM6mpjO/view?usp=drive
 # ***𝛼 = Based on P+ 2.5.2***
 # ***𝛽 = Based on P+ 3.05***
 
-# [Chars with no changes from 3.02]
+# [Chars with no changes from 3.05]
 Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, Wario, Jigglypuff, Game and watch, Ivysaur, Ice Climbers
 
 # [Charizard (𝛽)]
@@ -30,7 +30,7 @@ Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, Wario, 
 -1.8 > 1.6
 
 ## ***[UpB]***
--Landing lag 15 > 30
+-Landing lag 15 > 25
 
 -Intangibility 4 > 1 (aerial and grounded)
 
@@ -68,7 +68,7 @@ Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, Wario, 
 
 +B Reversible punch charge
 
-+Punchgliding
++Punchgliding (aerial punch applies momentum)
 
 -Unified knockback/damage between air/grounded (40/90 > 30/80)
 
@@ -77,9 +77,9 @@ Luigi, Pikachu, Diddy Kong, Falcon, Bowser, Falco, Samus, Olimar, Zelda, Wario, 
 -Air punch cancel lag 9 > 12
 
 ## ***[Fair]***
--Late hits base knockback decreased 50 > 30
+-Early hits (f23-26) damage reduced 17 > 16
 
--Damage 16 > 14
+-Late hit spike replaced with a sourspot that sends at 60 degrees and does 14% (knockback values unchanges) 
 
 ## ***[Uair]***
 -SDI modifier increased 1.0 > 1.2
@@ -96,6 +96,13 @@ Damage reduced 18/16 > 16/14
 
 ## ***[Cargo throw]***
 -Forward and back throw angle adjusted 65 > 55
+
+## ***[SideB]***
+-Doward momentum now applies instantly on the aerial version (Now useless as a recovery tool)
+
++Downward momentum now applies instantly on the aerial version (spike is easier to space) 
+
++Startup reduced 20 > 18
 
 # [Fox (𝛽)]
 
@@ -171,12 +178,14 @@ Stats: 6%, 40 BKB 80 KBG @ 80 degrees, 25 frames of endlag
 ## ***[Quickdraw]***
 -Base grounded speed reduced 4 > 3.4
 
+-Uncharged startup increased 9 > 12
+
 -Maximum charge time increased 30f > 60f 
 
 -Grounded speed growth rate reduced 0.8 > 0.4
 
 ## ***[Quickdraw attack]***
--startup increased f2 > f6
+-startup increased f2 > f4
 
 ## ***[Aether]***
 +Initial hit buffed to link better into the rest of the move
@@ -449,6 +458,16 @@ Stats:
 ## ***[Dash Attack]***
 -Active frames reduced 11 > 8
 
+## ***[PK Thunder]***
+-Orb is now instantly destroyed when Lucas is hit
+
+## ***[OU Burst]***
++Active frames increased 2 > 3
+
+-Startup increased 2 > 3
+
++New stats 12%, 40 BKB, 110 KBG @ 80 degrees
+
 # [Mario (𝛼)]
 
 ## ***[Attributes]***
@@ -478,6 +497,7 @@ Stats:
 
 -New stats: 22 bkb/20 kbg > 10 WDSK, 0 BKB, 100 KBG
 
+-Bounce velocity multiplier decreased 0.87 > 0.67
 
 ## ***[DownB]***
 
@@ -486,21 +506,30 @@ New move: Star Spin
     Lifted from Mario Galaxy, Mario spins around propelling him up into the air. This move can be used for combo extensions as well as recovery.
 
     {Stats}
-    Frame 10-14, 8%, 90BKB 30 KBG @ 80 degrees
+   + Frame 10-14, 8%, 90BKB 30 KBG @ 80 degrees
 
 -Consumed on frame 5
 
 -Once per airtime 
 
+IASA 32
+
 ## ***[Fair]***
--Strong hit damage reduced 17/16 > 16/15
+-fist hitbox is now always a meteor
 
--Strong hit base knockback normalized 45/40 > 40/40
++Startup reduced 16 > 14 
 
--Meteor damage reduced 15 > 14
+-Arm hitbox is now a sourspot. 10%, 30 BKB, 80 KBG @ 361
+
+## ***[Dash Attack]***
+-Active frames reduced 20 > 17 
 
 ## ***[Bair]***
 -Strong hit angle increased 28 > 361
+
++Strong hit damage increased 11 > 14
+
++Late hit damage increased 9 > 11
 
 +Strong hit KBG increased 65 > 100
 
@@ -976,29 +1005,31 @@ f22-28, 16%, 80 BKB 40 KBG @ 85
 +IASA decreased 31 > 25
 
 ## ***[Jab 2]***
--Startup increased 2 > 5
+-Startup increased 2 > 3
 
 ## ***[New uair]***
 +9f landing lag
 
-First hit (f8-12): 
+First hit (f6-10): 
 
-+Leg hitbox: 4%, 60 WDSK, 100kbg @ 87 degrees.
++Leg hitbox: 4%, 50 WDSK, 100kbg @ 87 degrees.
 
-+Foot hitbox: 4%, 30 WDSK, 100 kbg @ 87 degrees.
++Foot hitbox: 4%, 25 WDSK, 100 kbg @ 87 degrees.
 
 Second hit:
 
-+sweetspot (f14-16): 12%, 20 bkb, 120 kbg @ 85 degrees
++sweetspot (f12-14): 12%, 20 bkb, 115 kbg @ 85 degrees
 
--Sourspot (f17-18): 10%, 20 bkb, 100 kbg @ 70 degrees
+-Sourspot (f15-16): 10%, 20 bkb, 115 kbg @ 70 degrees
 
 ## ***[Attributes]***
--Terminal velocity increased from 1.9 > 2.3
+-Terminal velocity increased from 1.9 > 2.1
+
++Fastfall terminal velocity increased 2.4 > 2.6
 
 +Shield size increased to properly cover back of head during GuardOn 9 > 9.75
 
--Top run speed reduced 4.0 > 2.8
+-Top run speed reduced 4.0 > 2.6
 
 ## ***[Grab]***
 +Grab hitboxes Y offset increased by 1 unit
@@ -1103,7 +1134,7 @@ f9-14
 
 
 ## ***[Down B]***
-+SDI modifier on first hit reduced 1.5 > 1.0
++SDI modifier on first hit reduced 1.5 > 0.8
 
 ## ***[Up B]***
 -(Air only) Vertical velocity (height) reduced 0.95 > 0.925
@@ -1118,7 +1149,7 @@ f9-14
 
 ## ***[Uthrow]***
 New stats:
-+Angle changed 73 > 95
++Angle changed 73 > 92
 
 -Endlag increased 19 > 24
 
